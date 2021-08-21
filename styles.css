@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #ffffff;
 }
 input,
 button,
@@ -30,4 +30,63 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.top-container {
+  flex-direction: column;
+  background-color: #5db0df;
+  width: 100vw;
+  height: 364px;
+  justify-content: flex-start;
+  padding: 30px 0px;
+}
+.navbar-box {
+  width: 1143px;
+  height: 27px;
+  justify-content: space-between;
+}
+
+.logo-box a {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.logo-box svg {
+  width: 18px;
+  height: 18px;
+}
+.space {
+  flex: 1;
+}
+.nav-box {
+  width: 250px;
+  justify-content: space-between;
+}
+.left-nav {
+  margin-left: 50px;
+  transition: all 1s;
+}
+.nav-box a:hover {
+  text-decoration: underline;
+}
+.header-box {
+  width: 1143px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px 0px;
+}
+.header-box h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.header-box p {
+  font-size: 20px;
+  font-weight: regular;
+}
+.search-bar {
+  width: 1154px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: -50px;
 }

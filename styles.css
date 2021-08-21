@@ -120,8 +120,11 @@ a {
   font-size: 14px;
   font-weight: 400;
 }
+.bottom-container {
+  width: 100vw;
+}
 .card-container {
-  width: 1154px;
+  width: 1054px;
   justify-content: space-between;
   margin-top: 80px;
 }
@@ -131,6 +134,7 @@ a {
   border-radius: 5px;
   background-color: #ffffff;
   justify-content: space-between;
+  color: #7b7b7b;
 }
 .card-img {
   width: 150px;
